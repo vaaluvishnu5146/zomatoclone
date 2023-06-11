@@ -1,0 +1,217 @@
+{
+  "message": "Restaurants fetched successfully!!!",
+  "result": {
+    "count": 8,
+    "data": [
+      {
+        "contactDetails": {
+          "primaryEmail": "kfcnungampakkam@kfc.com",
+          "primaryContactNumber": "+917089674534"
+        },
+        "generalDetails": {
+          "cusine": ["american"],
+          "foodType": ["nonveg"],
+          "trending": false,
+          "isOpen": false,
+          "averageRating": 2
+        },
+        "addressDetails": {
+          "addressLine1": "3rd cross",
+          "addressLine2": "Nungampakkam PO",
+          "city": "Chennai",
+          "state": "Tamilnadu",
+          "pincode": "600028",
+          "branchId": "1"
+        },
+        "_id": "645c74c949fa573430e5c14b",
+        "restaurantName": "Kenducky Fried Chiecken - KFC",
+        "createdAt": "2023-05-11T04:53:24.877Z",
+        "updateAt": "2023-05-11T04:53:24.877Z",
+        "__v": 0
+      },
+      {
+        "contactDetails": {
+          "primaryEmail": "coalbarbecue@gmail.com",
+          "primaryContactNumber": "+917089674874"
+        },
+        "generalDetails": {
+          "cusine": ["arabian"],
+          "foodType": ["nonveg"],
+          "trending": false,
+          "isOpen": false,
+          "averageRating": 2
+        },
+        "addressDetails": {
+          "addressLine1": "40, bazullah road Partha sarathy puram",
+          "addressLine2": "T.Nagar",
+          "city": "Chennai",
+          "state": "Tamilnadu",
+          "pincode": "600017",
+          "branchId": "1"
+        },
+        "_id": "645c7654cfa7bf7f9c4f410a",
+        "restaurantName": "Coal barbecue",
+        "createdAt": "2023-05-11T04:54:18.605Z",
+        "updateAt": "2023-05-11T04:54:18.605Z",
+        "__v": 0
+      },
+      {
+        "contactDetails": {
+          "primaryEmail": "ungfgrace@bking.com",
+          "primaryContactNumber": "+917089654374"
+        },
+        "generalDetails": {
+          "cusine": ["american"],
+          "foodType": ["nonveg", "veg"],
+          "trending": true,
+          "isOpen": true,
+          "averageRating": 1
+        },
+        "addressDetails": {
+          "addressLine1": "UN 1, GF, Grace international Food Court",
+          "addressLine2": "15th Avenue",
+          "city": "Chennai",
+          "state": "Tamilnadu",
+          "pincode": "600083",
+          "branchId": "1"
+        },
+        "_id": "645c76f3cfa7bf7f9c4f410c",
+        "restaurantName": "Burger King",
+        "createdAt": "2023-05-11T04:54:18.605Z",
+        "updateAt": "2023-05-11T04:54:18.605Z",
+        "__v": 0
+      },
+      {
+        "contactDetails": {
+          "primaryEmail": "arcotroadporur@sbvn.com",
+          "primaryContactNumber": "+917089654123"
+        },
+        "generalDetails": {
+          "cusine": ["southindian"],
+          "foodType": ["veg"],
+          "trending": true,
+          "isOpen": true,
+          "averageRating": 3
+        },
+        "addressDetails": {
+          "addressLine1": "1, Arcot road, Sai Nagar",
+          "addressLine2": "Sapthagiti nagar, porur",
+          "city": "Chennai",
+          "state": "Tamilnadu",
+          "pincode": "600116",
+          "branchId": "1"
+        },
+        "_id": "645c77c5cfa7bf7f9c4f410e",
+        "restaurantName": "Saravana Bhavan",
+        "createdAt": "2023-05-11T04:54:18.605Z",
+        "updateAt": "2023-05-11T04:54:18.605Z",
+        "__v": 0
+      },
+      {
+        "contactDetails": {
+          "primaryEmail": "kadharbhai@gmail.com",
+          "primaryContactNumber": "+917089654321"
+        },
+        "generalDetails": {
+          "cusine": ["southindian"],
+          "foodType": ["nonveg"],
+          "trending": false,
+          "isOpen": true,
+          "averageRating": 4
+        },
+        "addressDetails": {
+          "addressLine1": "Kadhar Bhai Biriyani",
+          "addressLine2": "Thiruvanmayur",
+          "city": "Chennai",
+          "state": "Tamilnadu",
+          "pincode": "600041",
+          "branchId": "1"
+        },
+        "_id": "645c7846cfa7bf7f9c4f4110",
+        "restaurantName": "Kadhar Bhai Biriyani",
+        "createdAt": "2023-05-11T04:54:18.605Z",
+        "updateAt": "2023-05-11T04:54:18.605Z",
+        "__v": 0
+      },
+      {
+        "contactDetails": {
+          "primaryEmail": "kadharbhai@gmail.com",
+          "primaryContactNumber": "+917087654231"
+        },
+        "generalDetails": {
+          "cusine": ["southindian"],
+          "foodType": ["nonveg", "veg"],
+          "trending": false,
+          "isOpen": true,
+          "averageRating": 4
+        },
+        "addressDetails": {
+          "addressLine1": "Dindugal Thalapakatty Biriyani",
+          "addressLine2": "Dindugal to trichy main road",
+          "city": "Dindugal",
+          "state": "Tamilnadu",
+          "pincode": "624001",
+          "branchId": "1"
+        },
+        "_id": "645c798acfa7bf7f9c4f4112",
+        "restaurantName": "Dindugal Thalapakatti Biriyani",
+        "createdAt": "2023-05-11T04:54:18.605Z",
+        "updateAt": "2023-05-11T04:54:18.605Z",
+        "__v": 0
+      },
+      {
+        "contactDetails": {
+          "primaryEmail": "arafa@gmail.com",
+          "primaryContactNumber": "+917087625131"
+        },
+        "generalDetails": {
+          "cusine": ["southindian"],
+          "foodType": ["nonveg"],
+          "trending": true,
+          "isOpen": true,
+          "averageRating": 3
+        },
+        "addressDetails": {
+          "addressLine1": "Pollachi to Coimbatiore road, Mahalingapuram arch",
+          "addressLine2": "near reliance mart",
+          "city": "Pollachi",
+          "state": "Tamilnadu",
+          "pincode": "642001",
+          "branchId": "1"
+        },
+        "_id": "645c7a09cfa7bf7f9c4f4114",
+        "restaurantName": "Arafa Biriyani Center",
+        "createdAt": "2023-05-11T04:54:18.605Z",
+        "updateAt": "2023-05-11T04:54:18.605Z",
+        "__v": 0
+      },
+      {
+        "contactDetails": {
+          "primaryEmail": "aasife@gmail.com",
+          "primaryContactNumber": "+917087625131"
+        },
+        "generalDetails": {
+          "cusine": ["southindian"],
+          "foodType": ["nonveg"],
+          "trending": false,
+          "isOpen": false,
+          "averageRating": 3
+        },
+        "addressDetails": {
+          "addressLine1": "Chidambaram nagar, Sinnamani nagar",
+          "addressLine2": "Tuticorin",
+          "city": "Tuticorin",
+          "state": "Tamilnadu",
+          "pincode": "628008",
+          "branchId": "1"
+        },
+        "_id": "645c7a6ecfa7bf7f9c4f4116",
+        "restaurantName": "Asife Biriyani",
+        "createdAt": "2023-05-11T04:54:18.605Z",
+        "updateAt": "2023-05-11T04:54:18.605Z",
+        "__v": 0
+      }
+    ]
+  },
+  "success": true
+}

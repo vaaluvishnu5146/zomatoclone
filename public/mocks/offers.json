@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "offerName": "Enjoy 50% offer",
+      "offerDescription": "Enjoy 50% offer on zomato upto 4 orders ",
+      "offerType": "offer",
+      "offerPlacement": "banner",
+      "offerImage": "https://s3-ap-southeast-1.amazonaws.com/bsy/iportal/images/zomato-banner-change_74B641A1E3AE1100D7015078982A3409.jpg"
+    },
+    {
+      "offerName": "Instant 25% offer",
+      "offerDescription": "Enjoy instant 25% offer on zomato for your favoutite meal",
+      "offerType": "offer",
+      "offerPlacement": "banner",
+      "offerImage": "https://cdn.zoutons.com/images/originals/blog/offerbanner1312_1648621628.png"
+    },
+    {
+      "offerName": "Enjoy 25% cashback",
+      "offerDescription": "Enjoy 50% offer on zomato upto 4 orders ",
+      "offerType": "cashback",
+      "offerPlacement": "banner",
+      "offerImage": "https://s3-ap-southeast-1.amazonaws.com/bsy/iportal/images/zomato-banner-change_74B641A1E3AE1100D7015078982A3409.jpg"
+    }
+  ]
+}

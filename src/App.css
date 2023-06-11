@@ -30,15 +30,15 @@ body {
   align-items: center;
   gap: 10px;
   > .location-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 
     > span {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       color: aliceblue;
     }
   }
@@ -70,6 +70,149 @@ body {
       > p {
         text-align: center;
       }
+    }
+  }
+
+  > .items-listings::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.Location_Picker {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .profileIcon {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .Location_Picker {
+    > img {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
+
+/* SLIDER */
+.slider {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  > .slider-image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+}
+
+.basic-slider {
+  position: relative;
+  > .slick-slider {
+    > .slick-dots {
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+}
+
+/* RESTAURANT CARD */
+.restaurant-listing {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  > .restaurant-card {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    border-radius: 25px;
+    > .brandContainer {
+      position: relative;
+      height: 70%;
+
+      > img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+
+      > .overlay {
+        padding: 20px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+
+    > .brandDetails {
+      padding: 15px;
+      box-sizing: border-box;
+
+      > .row {
+        > .restaurantName {
+          text-overflow: ellipsis;
+          overflow: hidden;
+          width: 80%;
+          height: 1.2em;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookmark-btn {
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .restaurant-listing {
+    flex-wrap: wrap;
+    > .restaurant-card {
+      width: 100%;
     }
   }
 }

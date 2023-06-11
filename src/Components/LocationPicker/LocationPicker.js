@@ -22,7 +22,7 @@ export default function LocationPicker() {
       </Box>
       <Box id="location-details">
         <Typography
-          variant="h6"
+          variant="body1"
           fontWeight={"bolder"}
           fontFamily={"poppins"}
           sx={{
